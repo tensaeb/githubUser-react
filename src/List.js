@@ -12,6 +12,7 @@ const List = () => {
 
     useEffect(() => {
         getUser()
+        document.title = "Github Users"
     }, [])
 
 
